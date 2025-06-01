@@ -28,9 +28,8 @@ This class is intended to be used as a movement model in the ONE simulator. To u
 
 ## Example
 
-```java
-Settings settings = ...; // your simulation settings
-MovementModel model = new GridCrowdMovement(settings);
+```
+Group.movementModel = GridCrowdMovement
 ```
 
 ## File
